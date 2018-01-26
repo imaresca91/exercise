@@ -10,6 +10,11 @@
     padding-right: 3%;
 }
 
+.Sections{
+    display: flex; 
+    justify-content: space-between;
+}
+
 .About{
     width: 300px;
 }
@@ -61,8 +66,20 @@
     border-color: #e1306c;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
     .Comments{
         display: none;
+    }
+}
+
+@media (max-width: 480px){
+    .Sections{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About{
+        margin-top: 20px;
+        text-align: center;
     }
 }
