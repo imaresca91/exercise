@@ -3,11 +3,12 @@
     width: 100%;
     left:0;
     bottom:0;
+    right:0;
     border-top: 1px solid #F2F3F2;
     background-color: lightgray;
     padding-left: 3%;
     padding-right: 3%;
-    position: fixed;
+    position: absolute; /*Stick the footer at bottom*/
 }
 
 .Sections{

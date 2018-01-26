@@ -1,10 +1,14 @@
+html {
+    height: 100%; /*Stick the footer at bottom*/
+}
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    min-height: 100%; /*Stick the footer at bottom*/
 }
 
 #Content{
     padding-top: 80px;
-    padding-bottom: 250px;
 }
 
 .Card{
