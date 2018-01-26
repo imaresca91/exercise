@@ -1,4 +1,4 @@
-.toolbar{
+.Toolbar{
     height: 56px;
     width: 100%;
     position: fixed;
@@ -14,21 +14,21 @@
     border-bottom: 2px solid #F2F3F2;
 }
 
-.toolbar nav{
+.Toolbar nav{
     height: 100%;
 }
 
-.logo{
+.Logo{
     height: 50%;
 }
 
 @media (max-width: 499px){
-    .desktopOnly{
+    .DesktopOnly{
         display: none;
     }
 }
 
-.drawerToggle {
+.DrawerToggle {
     width: 40px;
     height: 100%;
     display: flex;
@@ -40,19 +40,19 @@
     cursor: pointer;
 }
 
-.drawerToggle div {
+.DrawerToggle div {
     width: 50%;
     height: 2px;
     background-color: lightgray;
 }
 
 @media (min-width: 500px) {
-    .drawerToggle {
+    .DrawerToggle {
         display: none;
     }
 }
 
-.navigationItems{
+.NavigationItems{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -63,19 +63,19 @@
 }
 
 @media (min-width: 500px){
-    .navigationItems{
+    .NavigationItems{
         flex-flow: row;
     }
 }
 
-.navigationItem{
+.NavigationItem{
     margin-left: 10px;
     border: 1px solid #FF5A5F;
     background-color: #FF5A5F;
     padding: 3px 15px 3px 15px;
 }
 
-.navigationItem a{
+.NavigationItem a{
     color:white;
     text-decoration: none;
 }
