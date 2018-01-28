@@ -11,3 +11,11 @@ function backdropClicked(){
     $('#SideDrawerElement').addClass('Close');
     $('#SideDrawerElement').removeClass('Open');
 }
+
+function showModalSignIn(){
+    $('#modalSignIn').modal('show');
+}
+
+function showModalSignUp(){
+    $('#modalSignUp').modal('show');
+}

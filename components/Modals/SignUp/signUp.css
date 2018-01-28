@@ -1,0 +1,22 @@
+.modalSignUpContent{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.facebook_modal{
+    padding: 10px; 
+    background-color:#4862A3; 
+    color: white; 
+    border-radius: 5px;
+}
+
+.google_modal{
+    padding: 10px; 
+    background-color: #EA4235; 
+    color: white; 
+    border-radius: 5px;
+}
