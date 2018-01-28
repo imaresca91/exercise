@@ -20,6 +20,7 @@
 
 .Logo{
     height: 50%;
+    display: none;
 }
 
 @media (max-width: 499px){
@@ -49,6 +50,9 @@
 @media (min-width: 500px) {
     .DrawerToggle {
         display: none;
+    }
+    .Logo{
+        display: block;;
     }
 }
 
