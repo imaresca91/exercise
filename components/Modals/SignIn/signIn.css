@@ -2,3 +2,15 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.modalSignInSocial{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+@media (max-width: 499px){
+    .modalSignInSocial{
+        display: block;
+    }
+}
