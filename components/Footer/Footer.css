@@ -9,6 +9,7 @@
     padding-left: 3%;
     padding-right: 3%;
     position: absolute;
+    font-size: 12px;
 }
 
 .Sections{
@@ -67,6 +68,10 @@
     border-color: #e1306c;
 }
 
+#contactUsButton{
+    margin-top:10px;
+}
+
 @media (max-width: 1000px){
     .Comments{
         display: none;
@@ -88,5 +93,8 @@
 @media (max-width: 768px){
     .Footer{
         height: 230px;
+    }
+    #contactUsButton{
+        display: none;
     }
 }
