@@ -73,3 +73,8 @@ function searchCountry(id, name, flag, description){
     '&flag=' + flag +
     '&description=' + description;
 }
+
+function searchContactUs(){
+    window.location.href = 
+    window.location.origin + '/~nachomaresca/exercise/contactus.html';
+}

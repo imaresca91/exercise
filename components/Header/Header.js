@@ -19,3 +19,7 @@ function showModalSignIn(){
 function showModalSignUp(){
     $('#modalSignUp').modal('show');
 }
+
+function goHome(){
+    window.location.href = window.location.origin + '/~nachomaresca/exercise/home.html';
+}

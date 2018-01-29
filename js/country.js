@@ -50,3 +50,8 @@ function loadContent(id, name, flag, description){
       '</div>';
     $('#content').html(content);
 }
+
+function searchContactUs(){
+    window.location.href = 
+    window.location.origin + '/~nachomaresca/exercise/contactus.html';
+}
