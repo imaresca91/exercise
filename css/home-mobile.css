@@ -1,0 +1,57 @@
+html {
+    height: 100%; /*Stick the footer at bottom*/
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    min-height: 100%; /*Stick the footer at bottom*/
+    color: #606160;
+    background-color: #E8EAEE;
+}
+
+#content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 250px;
+}
+
+#countries{
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #DCDEE2;
+}
+
+.btn_traveler{
+    background-color: #007849;
+    color: white;
+    border-color: #007849;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    border: 0;
+}
+
+.btn_traveler:hover{
+    background-color: #00603a;
+    color: white;
+    border-color: #00603a;
+}
+
+@media (min-width: 450px){
+    #content{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+

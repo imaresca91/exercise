@@ -37,12 +37,6 @@ body{
     box-shadow: 0 3px 14px 0 rgba(0,0,0,.15);
 }
 
-@media (max-width: 575px){
-    .Card{
-        width: 250px;
-    }
-}
-
 .btn_traveler{
     background-color: #007849;
     color: white;
@@ -50,10 +44,18 @@ body{
     border-radius: 5px;
     cursor: pointer;
     padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    border: 0;
 }
 
 .btn_traveler:hover{
     background-color: #00603a;
     color: white;
     border-color: #00603a;
+}
+
+@media (max-width: 575px){
+    .Card{
+        width: 250px;
+    }
 }

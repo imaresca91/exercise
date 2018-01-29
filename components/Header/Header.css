@@ -23,7 +23,7 @@
     display: none;
 }
 
-@media (max-width: 499px){
+@media (max-width: 768px){
     .DesktopOnly{
         display: none;
     }
@@ -47,7 +47,7 @@
     background-color: lightgray;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 769px) {
     .DrawerToggle {
         display: none;
     }
@@ -74,4 +74,23 @@
 
 .NavigationItem{
     margin-left: 10px;
+}
+
+@media (max-width: 500px){
+    .Toolbar{
+        background-color: transparent;
+        border-bottom: none;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .DrawerToggle {
+        background-color: black;
+        padding: 10px 0;
+    }
+
+    .DrawerToggle div {
+        background-color: white;
+    }
+
 }
