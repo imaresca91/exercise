@@ -8,7 +8,7 @@ body{
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     min-height: 100%; /*Stick the footer at bottom*/
-    font-size: 12px; 
+    font-size: 16px; 
     color: #606160;
 }
 
@@ -32,4 +32,8 @@ body{
     background-color: #00603a;
     color: white;
     border-color: #00603a;
+}
+
+.country_name{
+    margin-top: 10px;
 }

@@ -53,7 +53,7 @@ function loadCountries(countries){
     var content = '';
     countries.forEach(function(c){
         content +=
-            '<div class="card" style="margin-top: 15px;" onclick="searchCountry('+c['id']+')">'+
+            '<div class="card" style="margin-top: 15px; cursor:pointer;" onclick="searchCountry(\''+c['id']+'\',\''+c['name']+'\',\''+c['flag']+'\',\''+c['description']+'\')">'+
                 '<img class="card-img-top" src="'+c['flag']+'" alt="Card image cap">'+
                 '<div class="card-body">'+
                     '<h5 class="card-title">'+c['name']+'</h5>'+
@@ -62,4 +62,13 @@ function loadCountries(countries){
             '</div>';
     });
     $('#countries').html(content);
+}
+
+function searchCountry(id, name, flag, description){
+    window.location.href = 
+    window.location.origin + '/~nachomaresca/exercise/country.html' +
+    '?id=' + id +
+    '&name=' + name +
+    '&flag=' + flag +
+    '&description=' + description;
 }
