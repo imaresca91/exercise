@@ -1,4 +1,4 @@
-.Toolbar{
+.toolbar{
     height: 56px;
     width: 100%;
     position: fixed;
@@ -14,23 +14,23 @@
     border-bottom: 2px solid #F2F3F2;
 }
 
-.Toolbar nav{
+.toolbar nav{
     height: 100%;
 }
 
-.Logo{
+.logo{
     height: 50%;
     display: none;
     cursor: pointer;
 }
 
 @media (max-width: 768px){
-    .DesktopOnly{
+    .desktopOnly{
         display: none;
     }
 }
 
-.DrawerToggle {
+.drawerToggle {
     width: 40px;
     height: 100%;
     display: flex;
@@ -42,22 +42,22 @@
     cursor: pointer;
 }
 
-.DrawerToggle div {
+.drawerToggle div {
     width: 50%;
     height: 2px;
     background-color: lightgray;
 }
 
 @media (min-width: 769px) {
-    .DrawerToggle {
+    .drawerToggle {
         display: none;
     }
-    .Logo{
+    .logo{
         display: block;;
     }
 }
 
-.NavigationItems{
+.navigationItems{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -68,29 +68,29 @@
 }
 
 @media (min-width: 500px){
-    .NavigationItems{
+    .navigationItems{
         flex-flow: row;
     }
 }
 
-.NavigationItem{
+.navigationItem{
     margin-left: 10px;
 }
 
 @media (max-width: 500px){
-    .Toolbar{
+    .toolbar{
         background-color: transparent;
         border-bottom: none;
         height: 40px;
         margin-top: 20px;
     }
 
-    .DrawerToggle {
+    .drawerToggle {
         background-color: black;
         padding: 10px 0;
     }
 
-    .DrawerToggle div {
+    .drawerToggle div {
         background-color: white;
     }
 

@@ -1,11 +1,11 @@
 $(document).ready(function(){
-    $('#Header').load('components/Header/Header.html');
-    $('#SideDrawer').load('components/SideDrawer/SideDrawer.html');
-    $('#FooterElement').load('components/Footer/Footer.html');
-    $('#modalSignInElement').load('components/Modals/SignIn/signIn.html');
-    $('#modalSignUpElement').load('components/Modals/SignUp/signUp.html');
+    $('#header').load('components/header/header.html');
+    $('#sideDrawer').load('components/sideDrawer/sideDrawer.html');
+    $('#footerElement').load('components/footer/footer.html');
+    $('#modalSignInElement').load('components/modals/signIn/signIn.html');
+    $('#modalSignUpElement').load('components/modals/signUp/signUp.html');
     if ($(window).width() > 500) {
-        window.location = 'http://127.0.0.1/~nachomaresca/exercise/home.html'
+        searchHome();
     }
 
     var countries = [
@@ -44,6 +44,18 @@ $(document).ready(function(){
             name: 'United Kingdom',
             flag: 'utils/country_flags/UnitedKingdom.png',
             description: 'Flag of the United Kingdom - also known to the British as a Union Jack, has been used since 1603 when the Scottish King James VI became the king of England.'
+        },
+        {
+            id: 7,
+            name: 'Uruguay',
+            flag: 'utils/country_flags/Uruguay.png',
+            description: 'The flag of Uruguay consists of nine horizontal stripes where for of them are blue and five are white.'
+        },
+        {
+            id: 8,
+            name: 'Argentina',
+            flag: 'utils/country_flags/Argentina.png',
+            description: 'The flag of Argentine is strikingly similar to the flag of Uruguay, especially by its blue-and-white design and yellow symbol of sun, which represents the Inca god of sun called Inti.'
         }
     ];
     loadCountries(countries);
@@ -62,18 +74,4 @@ function loadCountries(countries){
             '</div>';
     });
     $('#countries').html(content);
-}
-
-function searchCountry(id, name, flag, description){
-    window.location.href = 
-    window.location.origin + '/~nachomaresca/exercise/country.html' +
-    '?id=' + id +
-    '&name=' + name +
-    '&flag=' + flag +
-    '&description=' + description;
-}
-
-function searchContactUs(){
-    window.location.href = 
-    window.location.origin + '/~nachomaresca/exercise/contactus.html';
 }

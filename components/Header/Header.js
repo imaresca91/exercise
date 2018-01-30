@@ -1,15 +1,15 @@
 function drawerToggleClicked(){
-    $('#BackdropElement').removeClass('Close');
-    $('#BackdropElement').addClass('Open');
-    $('#SideDrawerElement').removeClass('Close');
-    $('#SideDrawerElement').addClass('Open');
+    $('#backdropElement').removeClass('Close');
+    $('#backdropElement').addClass('Open');
+    $('#sideDrawerElement').removeClass('Close');
+    $('#sideDrawerElement').addClass('Open');
 }
 
 function backdropClicked(){
-    $('#BackdropElement').addClass('Close');
-    $('#BackdropElement').removeClass('Open');
-    $('#SideDrawerElement').addClass('Close');
-    $('#SideDrawerElement').removeClass('Open');
+    $('#backdropElement').addClass('Close');
+    $('#backdropElement').removeClass('Open');
+    $('#sideDrawerElement').addClass('Close');
+    $('#sideDrawerElement').removeClass('Open');
 }
 
 function showModalSignIn(){
@@ -18,8 +18,4 @@ function showModalSignIn(){
 
 function showModalSignUp(){
     $('#modalSignUp').modal('show');
-}
-
-function goHome(){
-    window.location.href = window.location.origin + '/~nachomaresca/exercise/home.html';
 }

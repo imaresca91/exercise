@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    $('#Header').load('components/Header/Header.html');
-    $('#SideDrawer').load('components/SideDrawer/SideDrawer.html');
-    $('#FooterElement').load('components/Footer/Footer.html');
-    $('#modalSignInElement').load('components/Modals/SignIn/signIn.html');
-    $('#modalSignUpElement').load('components/Modals/SignUp/signUp.html');
+    $('#header').load('components/header/header.html');
+    $('#sideDrawer').load('components/sideDrawer/sideDrawer.html');
+    $('#footerElement').load('components/footer/footer.html');
+    $('#modalSignInElement').load('components/modals/signIn/signIn.html');
+    $('#modalSignUpElement').load('components/modals/signUp/signUp.html');
     var url = new URL(window.location.href);
     var id = url.searchParams.get("id");
     var name = url.searchParams.get("name");
@@ -49,9 +49,4 @@ function loadContent(id, name, flag, description){
         '</a>'+
       '</div>';
     $('#content').html(content);
-}
-
-function searchContactUs(){
-    window.location.href = 
-    window.location.origin + '/~nachomaresca/exercise/contactus.html';
 }
