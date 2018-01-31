@@ -1,10 +1,10 @@
 function searchMobileHome(){
-    window.location.href = window.location.origin + '/~nachomaresca/traveler/home-mobile.html';
+    window.location.href = window.location.origin + '/home-mobile.html';
 }
 
 function searchCountry(id, name, flag, description){
     window.location.href = 
-    window.location.origin + '/~nachomaresca/traveler/country.html' +
+    window.location.origin + '/country.html' +
     '?id=' + id +
     '&name=' + name +
     '&flag=' + flag +
@@ -12,9 +12,9 @@ function searchCountry(id, name, flag, description){
 }
 
 function searchContactUs(){
-    window.location.href = window.location.origin + '/~nachomaresca/traveler/contactus.html';
+    window.location.href = window.location.origin + '/contactus.html';
 }
 
 function searchHome(){
-    window.location.href = window.location.origin + '/~nachomaresca/traveler/index.html';
+    window.location.href = window.location.origin + '/index.html';
 }
